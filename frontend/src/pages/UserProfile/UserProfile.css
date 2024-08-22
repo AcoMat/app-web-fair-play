@@ -1,0 +1,88 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px auto;
+    color: black;
+    font-size: 1.5em;
+    max-width: 1200px;
+}
+
+.discord-logo {
+    height: 1em;
+    vertical-align: middle;
+    padding: 0 0px 10px;
+}
+
+
+.profile-container img.profile-image {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.discord-container{
+    display: flex;
+}
+
+.profile-container h2 {
+    color: white;
+    font-size: 1.5em;
+    margin: 5px 5px;
+}
+
+.profile-container p {
+    color: rgba(255, 255, 255, 0.24);
+    font-size: 1em;
+    margin: 5px 5px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px auto;
+    max-width: 840px;
+}
+
+.info-box {
+    color: rgb(255, 255, 255);
+    max-width: 840px;
+    background-color: #0a0b12;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.info-box p {
+    color: white;
+    font-size: 1.2em;
+    margin: 20px 20px;
+    font-weight: bold;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator-line {
+    max-width: 840px;
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 20px auto 0px;
+}
+
+.title {
+    color: white;
+    padding: 0px 30px;
+}
+
+.rank-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: -20px;
+}

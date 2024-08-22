@@ -1,0 +1,240 @@
+body {
+    background-image: url('../../assets/images/backgroundImage.jpg');
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #0a0b12;
+    height: auto;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    align-self: auto;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    width: 412px;
+    margin-top: 20px;
+}
+
+.info-field {
+    margin: 0px;
+    text-align: left;
+    color: #676767;
+    text-wrap: nowrap;
+    font-size: 20px;
+}
+
+
+.form-field-large {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items:center;
+}
+
+.form-field-large input {
+  margin-top: 7px;
+  
+  padding: 14px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  background-color: #0A0B12;
+  color: #D43B4D;
+  font-weight: bold;
+  width: 798px;
+  box-sizing:border-box;
+}
+
+.large-field {
+    margin-right: 600px;
+}
+
+.form-column {
+    gap: 10px;
+}
+
+.form-field input,
+.form-field select {
+    margin-top: 7px;
+    align-self: flex-start;
+    padding: 14px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #0A0B12;
+    color: #D43B4D;
+    font-weight: bold;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.form-section input[type="checkbox"] {
+    display: none;
+}
+
+.form-section input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.form-section input[type="checkbox"] + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #D43B4D;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.form-section input[type="checkbox"]:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 4.5px;
+    top: 1px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.form-section input[type="checkbox"]:checked + label:before {
+    background-color: #D43B4D;
+}
+
+.save-button {
+    margin-bottom: 30px;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    background-color: #d43b4d;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: medium;
+    height: 67px;
+    width: 417px;
+}
+
+.save-button:hover {
+    background-color: #bb2335;
+}
+
+
+.edit-container {
+    height: 100%;
+    text-align: -webkit-center;
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+}
+
+.main-info-section {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-right: 490px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.photo-section {
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-content: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    padding-left: 15%;
+}
+
+.profile-image-bigcard {
+    width: 150px;
+    height: 150px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 7;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.username-title {
+    margin-left: 20px;
+}
+
+.info-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-subsection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: #676767;
+}
+
+.game-section {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.logo-game {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.checkbox-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+
+    & .below {
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+.checkbox-row.below {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.checkbox-group {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.checkbox-group label {
+    color: #D43B4D;
+    font-weight: bold;
+}
+
+.required-field {
+    margin: 0px;
+    text-align: left;
+    color: #D43B4D;
+    text-wrap: nowrap;
+    font-size: 20px;
+    user-select: none;
+}

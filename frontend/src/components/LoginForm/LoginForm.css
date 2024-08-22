@@ -1,0 +1,51 @@
+.passwordForget {
+    margin: 10px 10px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .login-form input,
+  .login-form select {
+    margin: 10px;
+    padding: 14px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #0A0B12;
+    color: white;
+  }
+  
+  .login-form button {
+    margin: 10px;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    background-color: #d43b4d;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: medium;
+  }
+  
+  .login-form button:hover {
+    background-color: #bb2335;
+  }
+
+.loginTitle {
+  color: white;
+  font-size: 45px;
+  margin-top: 5px;
+}
+
+.loginFairPlayLogo {
+  width: 190px;
+  height: 190px;
+}
+
+.error {
+  color: rgb(255, 112, 112);
+}

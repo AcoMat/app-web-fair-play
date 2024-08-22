@@ -1,0 +1,51 @@
+.userValoration {
+  .userValoration__color {
+    color: #d43b4d;
+  }
+
+  .userValoration__stars {
+    display: flex;
+    flex-direction: row-reverse;
+    &:hover .userValoration_estrella {
+      filter: brightness(40%);
+    }
+  }
+
+  .userValoration__stars-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .userValoration_estrella {
+    height: 1.5em;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: filter 0.1s ease;
+  }
+
+  .estrella-desmarcada {
+    filter: brightness(40%);
+  }
+
+  .estrella-marcada {
+    filter: brightness(100%);
+  }
+}
+
+.userValoration_estrella {
+  &:hover,
+  &:hover ~ .userValoration_estrella {
+    filter: brightness(100%) !important;
+  }
+}
+.flecha-svg {
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.a {
+  display: flex;
+  align-items: center;
+}

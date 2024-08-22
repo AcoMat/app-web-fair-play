@@ -1,0 +1,21 @@
+.column {
+    padding-top: 90px;
+}
+
+.registerNow {
+    margin: 10px;
+    padding: 17px 70px;
+    border-radius: 15px;
+    border: none;
+    background-color: #d43b4d;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: medium;
+      
+}
+
+.forgetPassword {
+    color: white;
+    font-size: 20px;
+}

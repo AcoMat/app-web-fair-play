@@ -1,0 +1,103 @@
+.home-card-box {
+  display: flex;
+  background-color: #0a0b12;
+  height: 12rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.home-photo-section {
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-content: center;
+}
+
+.home-profile-image {
+  width: 150px;
+  height: 150px;
+  padding-left: 15%;
+}
+
+.home-content-section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 7;
+}
+
+.top-content-section {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.home-username-title {
+  margin: 15px 40px;
+}
+
+.home-info-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.home-info-subsection {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  color: #676767;
+}
+
+.home-info-field {
+  margin-top: 0;
+  margin-bottom: 3px;
+  margin-left: 40px;
+  margin-right: 0;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.home-info-field-2 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  margin-right: 0;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.home-game-section {
+  padding: 10px;
+
+  .estrella-home {
+    height: 1.5em;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .estrella-desmarcada {
+    filter: brightness(40%);
+  }
+  .estrella-marcada {
+    filter: brightness(100%);
+  }
+}
+
+.home-logo-game {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.check-icon {
+  margin-right: 1.5rem;
+  width: 75px;
+  height: 75px;
+}
+
+/*letra 676767 - la otra letra d43b4d */
+
